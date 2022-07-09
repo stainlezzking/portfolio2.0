@@ -27,16 +27,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link d-block  active" aria-current="page" href="index.html">.Home</a>
+                <a class="nav-link d-block" aria-current="page" href="./index.html">.Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link d-block" href="./about.html"> .About</a>
+                <a class="nav-link d-block  active" href="./about.html"> .About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link d-block" href="./#works"> .Work</a>
+                <a class="nav-link d-block" href="./index.html#works"> .Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link d-block" href="./resume"> .Resume</a>
+                <a class="nav-link d-block" href="./resume.html"> .Resume</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link d-block" href="#"> .Contact</a>
@@ -50,11 +50,11 @@
         </div>
       </nav>
     <div class="jumbotron d-md-flex justify-content-between container align-items-center" >
-        <div class="image-prev position-relative order-md-2 text-center">
-            <img src="./assets/images/setup.svg" alt="" srcset="" />
+        <div class="about__image-prev position-relative order-md-2 text-center col-md-4 mb-5 mx-auto mb-md-0">
+            <img src="./assets/images/me.jpg" class="d-block" alt="" srcset="" />
           </div>
       <div class="caption order-md-1 mx-auto px-2 mt-3 mt-md-0" >
-        <h2> <img src="./assets/images/hello.png" alt="hello" class="hello" srcset=""></h2>
+        <h2> <img src="./assets/images/aboutme.png" alt="hello" class="about__hello mb-md-4" srcset=""></h2>
         <p class="intro">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum ea sed
           officia enim provident. Nesciunt quibusdam accusantium aut esse dicta
@@ -64,27 +64,27 @@
           accusamus omnis possimus. Eveniet, praesentium! Quos nisi in esse
           recusandae explicabo! Numquam culpa delectus minus eligendi molestias
           ullam.
-          <div class="contact mw-400 py-4 d-flex align-items-center justify-content-between">
-            <p class="text-uppercase mb-0">this is where i come in</p>
-            <button class="btn btn-outline-primary rounded-pill btn-lg">contact me</button>
+          <div class="contact mw-300 py-4 d-flex align-items-center justify-content-between">
+            <button class="btn btn-outline-primary rounded-pill btn-lg">connect with me</button>
+            <button class="btn btn-outline-primary rounded-pill btn-lg">Resume</button>
           </div>
         </p>
+        
       </div>
 
     </div>
-
     <section id="stacks" class="black-bg">
-      <h3 class=" text-center small">My tools</h3>
+      <h3 class="fw-bold text-center small">My tools</h3>
       <div class="mw-500 px-2 d-flex mx-auto">
         <!-- html -->
-        <svg viewBox="0 0 384 512" data-bs-toggle="tooltip" data-bs-placement="top" title="html5">
+        <svg viewBox="0 0 384 512">
           <path
             style="fill: #f36428"
             d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"
           />
         </svg>
         <!-- css -->
-        <svg viewBox="0 0 384 512" data-bs-toggle="tooltip" data-bs-placement="top" title="css3">
+        <svg viewBox="0 0 384 512">
           <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
           <path
             style="fill: #35abdd"
@@ -92,7 +92,7 @@
           />
         </svg>
         <!-- js  -->
-        <svg viewBox="0 0 448 512" data-bs-toggle="tooltip" data-bs-placement="top" title="Javascript">
+        <svg viewBox="0 0 448 512">
           <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
           <path
             style="fill: #f5dd1b"
@@ -101,7 +101,7 @@
         </svg>
 
         <!-- node -->
-        <svg viewBox="0 0 448 512" data-bs-toggle="tooltip" data-bs-placement="top" title="Node js">
+        <svg viewBox="0 0 448 512">
           <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
           <path
             style="fill: #13aa52"
@@ -109,7 +109,7 @@
           />
         </svg>
         <!-- react js  -->
-        <svg viewBox="0 0 512 512" data-bs-toggle="tooltip" data-bs-placement="top" title="react-js">
+        <svg viewBox="0 0 512 512">
           <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
           <path
             style="fill: #06d9fe"
@@ -117,7 +117,7 @@
           />
         </svg>
         <!-- mongodb -->
-        <svg viewBox="0 0 1024 1024" data-bs-toggle="tooltip" data-bs-placement="top" title="mongodb">
+        <svg viewBox="0 0 1024 1024">
           <circle cx="512" cy="512" r="512" style="fill: #13aa52" />
           <path
             d="M648.86 449.44c-32.34-142.73-108.77-189.66-117-207.59-9-12.65-18.12-35.15-18.12-35.15-.15-.38-.39-1.05-.67-1.7-.93 12.65-1.41 17.53-13.37 30.29-18.52 14.48-113.54 94.21-121.27 256.37-7.21 151.24 109.25 241.36 125 252.85l1.79 1.27v-.11c.1.76 5 36 8.44 73.34H526a726.68 726.68 0 0 1 13-78.53l1-.65a204.48 204.48 0 0 0 20.11-16.45l.72-.65c33.48-30.93 93.67-102.47 93.08-216.53a347.07 347.07 0 0 0-5.05-56.76zM512.35 659.12s0-212.12 7-212.08c5.46 0 12.53 273.61 12.53 273.61-9.72-1.17-19.53-45.03-19.53-61.53z"
@@ -127,7 +127,7 @@
         <!-- photoshop -->
         <!-- 32c5ef -->
         <?xml version="1.0" encoding="UTF-8"?>
-        <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" data-bs-toggle="tooltip" data-bs-placement="top" title="photoshop">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
           <g id="surface42180014">
             <path
               style="
@@ -157,52 +157,27 @@
         </svg>
       </div>
     </section>
-    <section id="works">
-      <h3 class="text-center small mb-3">Selected works</h3>
-     <div class="container">
-        <!-- on touch it will give a subtle shadow, > maybe from bootstrap or from animista -->
-        <div class="row px-3 gx-3">
-           <div class="box  mx-auto col-12 row gy-4">
-            <img src="./assets/images/exam-paper.jpg" class="col-md-6 px-0 project-image " alt="" srcset="">
-            <div class="col-md-6 proj__detail position-relative">
-                <h2 class="title text-center mb-sm-4 text-white">
-                    .Online Exam
-                </h2>
-                <div class="text px-md-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fugit a odit suscipit sed est itaque, nisi nobis libero dicta omnis, officia pariatur beatae aut placeat dolorem adipisci consectetur dolore ipsa ratione eaque, tempore voluptates. Cumque consequatur sunt sapiente obcaecati.
+      
+    <section id="hobbies">
+      <h3 class="text-center small mb-sm-4"> Spare time</h3>
+      <!-- spare time or gallery -->
+        <div class="container">
+            <div class="row gy-3">
+                <div class="col-sm-6 col-md-4 col-lg-3 hobby-box">
+                    <img src="./assets/images/game0.jpg" class="img-fluid" alt="" srcset="">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 hobby-box">
+                    <img src="./assets/images/soccer.jpg" class="img-fluid" alt="" srcset="">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 hobby-box">
+                    <img src="./assets/images/music.jpg" class="img-fluid" alt="" srcset="">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 hobby-box">
+                    <img src="./assets/images/game1.jpg" class="img-fluid" alt="" srcset="">
                 </div>
             </div>
-           </div>
-           <div class="box  mx-auto col-12 row gy-4">
-            <img src="./assets/images/social-media.jpg" class="col-md-6 px-0 project-image order-md-2" alt="" srcset="">
-            <div class="col-md-6 order-md-1 proj__detail position-relative">
-                <h2 class="title text-center mb-sm-4 text-white">
-                    .social media
-                </h2>
-                <div class="text px-md-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fugit a odit suscipit sed est itaque, nisi nobis libero dicta omnis, officia pariatur beatae aut placeat dolorem adipisci consectetur dolore ipsa ratione eaque, tempore voluptates. Cumque consequatur sunt sapiente obcaecati.
-                </div>
-            </div>
-           </div>
-           <div class="box  mx-auto col-12 row gy-4">
-            <img src="./assets/images/portfolio.jpg" class="col-md-6 px-0 project-image" alt="" srcset="">
-            <div class="col-md-6 proj__detail position-relative">
-                <h2 class="title text-center mb-sm-4 text-white">
-                    .Portfolio
-                </h2>
-                <div class="text px-md-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fugit a odit suscipit sed est itaque, nisi nobis libero dicta omnis, officia pariatur beatae aut placeat dolorem adipisci consectetur dolore ipsa ratione eaque, tempore voluptates. Cumque consequatur sunt sapiente obcaecati.
-                </div>
-            </div>
-           </div>
         </div>
-     </div>
     </section>
-         <!-- fixed bottom back2t0p  -->
-         <div id="back2Top" class="position-fixed d-none rounded-circle bg-primary p-2" style="width: 40px; bottom: 10%; right: 5%; max-width: 90px;" >
-            <img src="./assets/images/arrow-top.png" alt="back to top button" class="img-fluid">
-         </div> 
-         
     <footer class="black-bg py-4">
        <div class="container">
         <p class="question text-end border-bottom px-1 px-md-3 border-success py-2 small"> Got an interesting project ? i can help you ☺</p>
@@ -224,71 +199,7 @@
         <p class="py-1 text-center small fainted"> made with love</p>
        </div>
     </footer>
+
     <script src="./assets/scripts/bootstrap-customized-nav.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
   </body>
-  <!-- 
-        2 stop body from scroll on nav open
-        5 stop nav length from growing when opening nav
-        6 post on twitter and tag vanessa [the frames, now show them your progress after its completed... same for linkdln]
-        7 post on twitter your code to do the text typing
-        8 show them your preloader [screen record it... then make a thread on how i completed this feature]
-   -->
-   <script>
-       let element = document.getElementsByClassName('image-prev')[0]
-       let name = "CHUKWUEBUKA STANLEY"
-       let position = 1
-       let reverse = false
-       let initial = true
-       let int;
-        function generateRandomInt(min,max){
-        return Math.floor((Math.random() * (max-min)) +min);
-        }
-       function type_delete(){
-            if(reverse){
-                // decrease position
-                position-- ;
-                element.style.setProperty("--name-type", JSON.stringify(name.slice(0,position) + "|")); 
-                // content only accepts strings, so had to be stringified
-                int =  generateRandomInt(100,900)
-            }else{
-                position++ ;
-                element.style.setProperty("--name-type", JSON.stringify(name.slice(0,position) + "|")); 
-                int =  generateRandomInt(500,2000)
-            }
-            if(initial){
-                int =  generateRandomInt(200,800)
-               if(name.length == position){
-                   initial = false;
-                //    return a delay longer than usuall
-                }
-            }
-            if(name.length == position){
-                reverse = true;
-                element.style.setProperty("--name-type", JSON.stringify(name.slice(0,position)))
-               return setTimeout(type_delete, 4500)
-            }
-            if(position == 1) {
-                reverse = false ;
-                return setTimeout(type_delete, 1300)
-        }
-        // reverse ? console.log(int) : null;
-        setTimeout(type_delete, int)
-       }
-       type_delete()
-       
-    //    fixed top display
-    window.addEventListener('scroll', function(e){
-       if(window.pageYOffset > 500){
-            document.getElementById('back2Top').classList.remove('d-none')
-       }else{
-        document.getElementById('back2Top').classList.add('d-none')
-       }
-    })
-    // initializing tooltip
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-    return new bootstrap.Tooltip(tooltipTriggerEl)
-    })
-   </script>
    </html>
