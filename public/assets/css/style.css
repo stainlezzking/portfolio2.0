@@ -211,7 +211,7 @@ body {
     text-align: center;
     display: flex;
     align-items: center;
-    background-color: #070b13ea;
+    background-color: #070b13;
   }
   /* call the animation on reverse */
   #navbarSupportedContent.show {
@@ -279,6 +279,11 @@ section {
   width: 0;
   transition: width 0.6s ease-out;
   background-color: #13aa52;
+}
+.built-with svg{
+    display: block;
+    margin: 0 .5rem;
+    height: 20px;
 }
 .box:hover .proj__detail::after {
   width: 100%;
