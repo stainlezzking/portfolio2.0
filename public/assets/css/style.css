@@ -321,3 +321,6 @@ section {
   width: 100%;
   height: 100%;
 }
+.text-success {
+  color: #14e785!important;
+}
