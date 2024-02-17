@@ -101,8 +101,17 @@
   .container-sm {
     max-width: 900px !important;
   }
+  #redis{
+    display: flex;
+    align-items: center;
+  }
   .caption {
     text-align: justify;
+  }
+}
+@media (max-width: 500px){
+  #redis img{
+    width: 1.5em;
   }
 }
 
@@ -116,6 +125,7 @@
   .about__image-prev img {
     width: 100%;
   }
+ 
 }
 
 /* ############# */
